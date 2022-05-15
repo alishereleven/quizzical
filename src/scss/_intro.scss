@@ -1,0 +1,28 @@
+.intro {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &-title {
+    margin-bottom: 20px;
+    font-family: Karla, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: $main-dark-blue;
+  }
+
+  &-start-btn {
+    padding: 17px 60px;
+    border: none;
+    border-radius: 15px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    background: $button-dark-blue;
+    color: $main-white;
+    cursor: pointer;
+  }
+}

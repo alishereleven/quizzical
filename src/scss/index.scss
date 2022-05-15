@@ -1,0 +1,21 @@
+@import "config";
+
+body {
+  width: 100vw;
+  background: $main-white;
+  background-image: url(../img/blue-bubble.png), url(../img/yellow-bubble.png);
+  background-repeat: no-repeat;
+  background-position: bottom left, top right;
+  background-attachment: fixed, fixed;
+  background-size: 25%, 25%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+@import "intro";
+@import "quiz";
