@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/quizzical/static/css/main.5d1119a4.css",
+    "main.js": "/quizzical/static/js/main.79154944.js",
+    "index.html": "/quizzical/index.html",
+    "main.5d1119a4.css.map": "/quizzical/static/css/main.5d1119a4.css.map",
+    "main.79154944.js.map": "/quizzical/static/js/main.79154944.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d1119a4.css",
+    "static/js/main.79154944.js"
+  ]
+}
